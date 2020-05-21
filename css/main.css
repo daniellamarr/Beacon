@@ -1,0 +1,159 @@
+:root {
+  --theme-purple: #8253DF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  height: 100%;
+}
+
+.banner .row {
+  height: 100%;
+}
+
+.banner-title {
+  font-weight: bold;
+  color: var(--theme-purple);
+  font-weight: bold;
+}
+
+.banner-text {
+  color: #333333;
+  margin: 30px 0;
+}
+
+.banner-buttons img {
+  width: 200px;
+}
+
+.banner-buttons img:first-of-type {
+  margin-right: 10px;
+}
+
+#faster {
+  background: #E9FBF1;
+}
+
+.phone-box {
+  background: #C0A9EF;
+  width: 100%;
+  height: calc(100% + 100px);
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.faster-text {
+  color: var(--theme-purple);
+  width: 80%;
+}
+
+#routes {
+  background: #26D971;
+  width: 100%;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.routes-text {
+  color: #fff;
+  width: 80%;
+}
+
+#routes img {
+  max-width: 100%;
+  margin-bottom: 28px;
+}
+
+#options {
+  width: 100%;
+  color: var(--theme-purple);
+  padding: 100px 0;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.icons img {
+  margin: 20px;
+}
+
+#features {
+  background: #8253DF;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature h2:first-of-type {
+  background-color: #A17EE7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  padding: 25px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+footer {
+  padding: 15px 0;
+  background: #2E2442;
+  color: #fff;
+}
+
+.email {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 23px;
+}
